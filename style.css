@@ -1,0 +1,69 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lora:ital,wght@1,500&family=Merriweather:wght@700&family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500;1,800&family=Poppins:ital,wght@0,500;1,400&family=Roboto+Slab:wght@400;500;600;900&family=Source+Code+Pro&family=Source+Sans+Pro:wght@900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(bd.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.container {
+  /* border: 2px solid black; */
+  color: azure;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+.container h1 {
+  font-family: 'Merriweather', serif;
+
+    width: 40%;
+  display: inline-block;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding: 13px 0;
+  border-bottom: 4px solid purple;
+}
+.box {
+  width: 100%;
+  border-bottom: 2px solid purple;
+  margin: 22px 0px;
+  /* border: 2px solid purple; */
+}
+.box input {
+  font-family: 'EB Garamond', serif;
+
+  background: none;
+  width: 75%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: bisque;
+  padding: 6px 10px;
+}
+.btn {
+  font-family: 'Poppins', sans-serif;
+
+  cursor: pointer;
+  outline: none;
+  border: 2px solid purple;
+  margin: 12px 0;
+  padding: 10px 21px;
+  border-radius: 20px;
+  background: none;
+  font-size: 15px;
+  color: antiquewhite;
+  font-weight: bold;
+}
+.btn:hover{
+color: purple;
+background-color:white ;
+opacity: 0.5;
+}
+.box i {
+  width: 25px;
+  text-align: center;
+}
